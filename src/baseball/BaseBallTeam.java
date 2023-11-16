@@ -17,8 +17,9 @@ public class BaseBallTeam {
         this.draw = draw;
     }
     
-    public void getRate() {
+    public double getRate() {
         rate = (double)win / (win+ lose);
+        return rate;
     }
 
     public void report() {
